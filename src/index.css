@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav {
+
+  height: 100%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  text-align: center;
+  background-color: #5C5A5A;
+}
+
+/* HOME STYLE */
+.container {
+  background-color: #0F0F0F;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img{
+  width: 25%;
+}
+
+
+
+/* CREATE STYLE */
+.create img {
+  width: 10%;
+}
+
+form {
+  width: 100%;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.formCard {
+  border-radius: 10px;
+  background-color: #5C5A5A;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: justify;
+  align-items: center;
+}
+
+
+
+
+
+/* GALLERY STYLE */
